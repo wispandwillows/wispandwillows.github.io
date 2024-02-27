@@ -365,3 +365,10 @@ img {
 #footer div .connect a#twitter {
 	background:url(../images/icons.png) no-repeat -93px 0;
 }
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #body.home .grid-container{
+    display: inline;
+  }
+}
